@@ -18,10 +18,10 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaWWZa1G3
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/2368f1b5d6ff724ae0c51.jpg";
 global.devs = "923135673658";
 global.sudo = process.env.SUDO || "94720797915,94763621705";
-global.owner = process.env.OWNER_NUMBER || "94720797915";
+global.owner = process.env.OWNER_NUMBER || "0759368554";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -48,10 +48,10 @@ module.exports = {
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ꜱᴀʜᴀɴ ᴏꜰᴄ",
-  author: process.env.PACK_AUTHER || "Sahan",
-  packname: process.env.PACK_NAME || "MASTER-MD",
-  botname: process.env.BOT_NAME || "•ᴍᴀꜱᴛᴇʀ-ᴍᴅ•",
-  ownername: process.env.OWNER_NAME || "Sahan",
+  author: process.env.PACK_AUTHER || "kiki",
+  packname: process.env.PACK_NAME || "kiki-ofc",
+  botname: process.env.BOT_NAME || "bot kiki",
+  ownername: process.env.OWNER_NAME || "kiki",
   errorChat: process.env.ERROR_CHAT || "94720797915",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
